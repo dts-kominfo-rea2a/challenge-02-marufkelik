@@ -29,7 +29,7 @@ function lakukanLooping(arrPegawai) {
   for (i = 0; i < arrPegawai.length; i++) {
       // console.log(arrPegawai[i].namaDepan + arrPegawai[i].namaBelakang);
       // let hasilLooping = (arrPegawai[i].namaDepan + arrPegawai[i].namaBelakang);
-      hasilLooping.push(arrPegawai[i].namaDepan + arrPegawai[i].namaBelakang);
+      hasilLooping.push(arrPegawai[i].namaDepan + " "+ arrPegawai[i].namaBelakang);
   };
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
